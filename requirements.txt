@@ -1,3 +1,4 @@
 streamlit==1.25.0
-torch==2.4.1
-transformers==4.31.0
+torch==2.3.1  # A more recent version compatible with Streamlit Cloud
+pillow  # Latest version auto-selected by Streamlit Cloud for compatibility
+tokenizers==0.13.3  # Compatible with recent Python versions
